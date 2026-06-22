@@ -126,7 +126,18 @@ git clone https://github.com/marceltrindade/IIVA.git ~/Projects/IIVA
 
 ---
 
-## Fase 5 — Grupos Docker
+## Fase 5 — Hermes Agent
+
+```bash
+scp valis:~/backups/ubik/hermes-ubik-config.tar.gz ~/
+tar xzf hermes-ubik-config.tar.gz -C ~/.hermes/
+```
+
+- [ ] Hermes config restaurado
+
+---
+
+## Fase 6 — Grupos Docker
 
 ```bash
 sudo usermod -aG docker $USER
