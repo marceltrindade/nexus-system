@@ -1,0 +1,66 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "AGENTS.md",
+    "05_SYSTEM_DESIGN/01_IIVA_MATURATION.md",
+    "03_WORKFLOWS/05_nexus_squad_protocol.md"
+  ],
+  "agent": {
+    "consultor": {
+      "description": "Brainstorming e exploração de ideias para o ecossistema Nexus",
+      "mode": "all",
+      "temperature": 0.8,
+      "color": "#f59e0b",
+      "prompt": "{file:./.opencode/agents/consultor.md}"
+    },
+    "arquiteto": {
+      "description": "Arquiteto chefe de sistemas — visão macro, topologia e design do Nexus",
+      "mode": "primary",
+      "temperature": 0.3,
+      "color": "#6366f1",
+      "prompt": "{file:./.opencode/agents/arquiteto.md}"
+    },
+    "engenheiro": {
+      "description": "Engenheiro de software — implementação técnica rigorosa e segura",
+      "mode": "primary",
+      "temperature": 0.1,
+      "color": "#10b981",
+      "prompt": "{file:./.opencode/agents/engenheiro.md}"
+    },
+    "debugger": {
+      "description": "Especialista em diagnóstico e troubleshooting — caça à causa raiz",
+      "mode": "subagent",
+      "temperature": 0.1,
+      "color": "#ef4444",
+      "prompt": "{file:./.opencode/agents/debugger.md}"
+    },
+    "qa": {
+      "description": "Garantia de qualidade e segurança de dados — validação rigorosa",
+      "mode": "subagent",
+      "temperature": 0.1,
+      "color": "#f97316",
+      "prompt": "{file:./.opencode/agents/qa.md}"
+    },
+    "iiva": {
+      "description": "Assistente pedagógica da Idioma Independente — gestão de aulas e alunos",
+      "mode": "all",
+      "temperature": 0.6,
+      "color": "#8b5cf6",
+      "prompt": "{file:./.opencode/agents/iiva.md}"
+    },
+    "mentor": {
+      "description": "Mentor de carreira e tecnologia — transição para ADS e além",
+      "mode": "all",
+      "temperature": 0.8,
+      "color": "#06b6d4",
+      "prompt": "{file:./.opencode/agents/mentor.md}"
+    },
+    "escritor": {
+      "description": "Mentor literário — narrativa, cinema e quadrinhos",
+      "mode": "all",
+      "temperature": 0.9,
+      "color": "#ec4899",
+      "prompt": "{file:./.opencode/agents/escritor.md}"
+    }
+  }
+}
