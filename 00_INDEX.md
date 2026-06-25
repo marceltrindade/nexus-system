@@ -19,6 +19,7 @@
 | [[00_Nexus/01_INFRA/docker_stack]] | Mapa de portas em uso no ecossistema |
 | [[00_Nexus/01_INFRA/n8n]] | n8n: setup, workflows, API keys |
 | [[00_Nexus/01_INFRA/n8n_mcp]] | n8n MCP: configuração do Model Context Protocol |
+| [[00_Nexus/01_INFRA/hermes_profiles]] | **Hermes Agent** — perfis do ecossistema Nexus |
 
 ## 02_STORAGE — Armazenamento
 

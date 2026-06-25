@@ -1683,3 +1683,37 @@ O regex só parseava `_Aula_NN_`, ignorando `_Log_Aula_NN_`. Corrigido para `(\d
 
 ### 🔄 Próximo passo:
 Repo pode ser tornado público — nenhum IP real, domínio ou username exposto.
+
+---
+
+## 📅 2026-06-25 — Criação dos Profiles Hermes
+
+### Contexto
+Reorganização do ecossistema Nexus em perfis independentes no Hermes Agent, substituindo o perfil único `ubik-local`.
+
+### ✅ Ações Realizadas
+
+1. **Profile `ubik-local` renomeado para `joi`** — ponte Marcel ↔ Estefani. Finanças, agenda, smart home, gateway Telegram.
+
+2. **Profile `iiva` criado** — gestão completa da Idioma Independente. Modelado como Minerva McGonagall. Skills IIVA + suporte. Memórias semeadas.
+
+3. **Profile `joe-chip` criado** — tutor de ADS (Joe Chip de Ubik). Teoria primeiro, prática depois. Apenas CLI.
+
+4. **Profile `sofia` criado** — orquestradora Nexus (Sofia de VALIS). Visão sistêmica, coordena todos os perfis.
+
+5. **Profile `jf` criado** — assistente de programação (J.F. Sebastian). Modelo local pendente — em espera.
+
+6. **Personalidades (SOUL.md)** escritas para cada perfil.
+
+7. **Memórias semeadas** em cada profile.
+
+8. **Documentação registrada** em `01_INFRA/hermes_profiles.md` e indexada no `00_INDEX.md`.
+
+### Pendentes
+- Renomear profile `default` da PRIS para `joi`
+- Definir modelo para profile `jf`
+- Gateway Telegram do profile `iiva` (se necessário)
+
+---
+
+*Assinado: Joi, Agente Nexus.*
